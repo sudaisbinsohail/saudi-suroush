@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
 import HeroSlider from './components/HeroSlider'
+import GallerySection from "./components/GallerySection";
+import FloatingContact from './components/Floating'
 
 const features = [
   { icon: "🌡️", text: "يتحمل درجات الحرارة العالية", en: "Heat resistant up to 80°C" },
@@ -106,6 +107,8 @@ export default function Home() {
         }
       `}</style>
 
+      <FloatingContact/>
+
       {/* ── NAV ── */}
       <nav style={{
         position: "fixed", top: 0, left: 0, right: 0, zIndex: 100,
@@ -204,7 +207,7 @@ export default function Home() {
               </ul>
 
               <a
-                href="https://wa.me/+966553105626?text=أريد الاستفسار عن صندوق المكيف (المنتج فقط)"
+                href="https://wa.me/+966553105626?text=أريد الاستفسار عن صندوق المكيف)"
                 className="btn-primary"
                 style={{
                   background: "linear-gradient(135deg, #c98c32, #f0c060)",
@@ -302,6 +305,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <GallerySection/>
 
       {/* ── FEATURES ── */}
       <section id="features" style={{ padding: "80px 24px", background: "#f5f0e8" }}>
@@ -452,7 +457,7 @@ export default function Home() {
             }}>
               <span>💬</span> واتساب الآن
             </a>
-            <a href="tel:+966" className="btn-primary" style={{
+            <a href="tel:+966 50 263 0853" className="btn-primary" style={{
               border: "1.5px solid rgba(255,255,255,0.25)",
               color: "#fff", padding: "15px 36px", borderRadius: 50,
               fontSize: 15, fontWeight: 600, textDecoration: "none",
