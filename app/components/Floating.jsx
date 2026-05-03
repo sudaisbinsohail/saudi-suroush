@@ -4,7 +4,7 @@ import { useState } from "react";
 // ─── Configure your numbers here ──────────────────────────────────────────────
 const CONTACTS = {
   whatsapp: [
-    { label: "واتساب 1", number: "++966502630853", display: "966502630853" },
+    { label: "واتساب 1", number: "++966502630853", display: "++966502630853" },
     { label: "واتساب 2", number: "++966553105626", display: "++966553105626" },
   ],
   phone: [
