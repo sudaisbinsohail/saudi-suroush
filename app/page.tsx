@@ -131,7 +131,7 @@ export default function Home() {
             <div style={{ fontSize: 10, color: "#c98c32", letterSpacing: "0.05em" }}>أغطية مكيفات فيبر جلاس</div>
           </div>
         </div>
-        <div style={{ display: "flex", gap: 10 }}>
+        {/* <div style={{ display: "flex", gap: 10 }}>
           <a href="#products" style={{
             color: "#666", fontSize: 13, textDecoration: "none",
             padding: "8px 14px", borderRadius: 50,
@@ -148,7 +148,7 @@ export default function Home() {
           >
             <span>💬</span> واتساب
           </a>
-        </div>
+        </div> */}
       </nav>
 
       <HeroSlider/>
