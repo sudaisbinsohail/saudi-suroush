@@ -4,12 +4,12 @@ import { useState } from "react";
 // ─── Configure your numbers here ──────────────────────────────────────────────
 const CONTACTS = {
   whatsapp: [
-    { label: "واتساب 1", number: "++966502630853", display: "+966 55 310 5626" },
-    { label: "واتساب 2", number: "++966553105626", display: "+966 50 000 0000" },
+    { label: "واتساب 1", number: "++966502630853", display: "966502630853" },
+    { label: "واتساب 2", number: "++966553105626", display: "++966553105626" },
   ],
   phone: [
-    { label: "هاتف 1", number: "++966502630853", display: "+966 55 310 5626" },
-    { label: "هاتف 2", number: "++966553105626", display: "+966 50 000 0000" },
+    { label: "هاتف 1", number: "++966502630853", display: "966502630853" },
+    { label: "هاتف 2", number: "++966553105626", display: "++966553105626" },
   ],
 };
 
