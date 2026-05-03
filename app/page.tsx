@@ -310,6 +310,7 @@ export default function Home() {
       </section>
 
       {/* ── PRODUCTS ── */}
+      {//test push}
       <section id="products" style={{ padding: "80px 24px", background: "#fff" }}>
         <div style={{ maxWidth: 800, margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: 52 }}>
