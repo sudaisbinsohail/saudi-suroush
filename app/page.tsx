@@ -161,7 +161,7 @@ export default function Home() {
           <div style={{ textAlign: "center", marginBottom: 52 }}>
             <p style={{ fontSize: 11, letterSpacing: "0.25em", color: "#c98c32", textTransform: "uppercase", marginBottom: 8 }}>خدماتنا</p>
             <h2 style={{ fontSize: "clamp(1.6rem, 4vw, 2.4rem)", fontWeight: 800, color: "#1a1a1a" }}>اختر ما يناسبك</h2>
-            <p style={{ color: "#888", marginTop: 10 }}>خياران فقط — بسيط وواضح</p>
+            {/* <p style={{ color: "#888", marginTop: 10 }}>خياران فقط — بسيط وواضح</p> */}
           </div>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 20 }}>
@@ -196,7 +196,7 @@ export default function Home() {
               </p>
 
               <ul style={{ listStyle: "none", padding: 0, margin: "0 0 28px", display: "flex", flexDirection: "column", gap: 8 }}>
-                {["فيبر جلاس أصلي عالي الجودة", "شبكة تهوية مدمجة", "تصميم بالشعار الوطني", "متعدد المقاسات"].map(f => (
+                {["فيبر جلاس أصلي عالي الجودة", "شبكة تهوية مدمجة", "متعدد المقاسات"].map(f => (
                   <li key={f} style={{ fontSize: 13, color: "#555", display: "flex", alignItems: "center", gap: 8 }}>
                     <span style={{ color: "#c98c32", fontWeight: 700 }}>✓</span> {f}
                   </li>
