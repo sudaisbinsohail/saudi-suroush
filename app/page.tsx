@@ -152,12 +152,7 @@ export default function Home() {
       </nav>
 
       <HeroSlider/>
-
-      {/* ── HERO ── */}
-      {/* MOBILE: full-screen cover image with text overlay */}
-      {/* DESKTOP: two-column layout — text left, image right */}
-
-
+      
       {/* ── PRODUCTS ── */}
       <section id="products" style={{ padding: "80px 24px", background: "#fff" }}>
         <div style={{ maxWidth: 800, margin: "0 auto" }}>

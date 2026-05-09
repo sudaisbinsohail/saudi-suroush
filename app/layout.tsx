@@ -2,6 +2,7 @@
 
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css";
 
 const geistSans = Geist({
@@ -45,7 +46,7 @@ export const metadata: Metadata = {
       "احمِ مكيفك من الحرارة والغبار بغطاء فيبر جلاس خارجي عالي الجودة من شركه الزهراني فيبرجلاس. متوفر بالتوصيل أو مع خدمة التركيب الاحترافي.",
     images: [
       {
-        url: "/hero-desktop.png",
+        url: "/heroimage5.png",
         width: 1200,
         height: 630,
         alt: "صندوق مكيف فيبر جلاس - شركه الزهراني فيبرجلاس",
@@ -57,7 +58,7 @@ export const metadata: Metadata = {
     title: "شركه الزهراني فيبرجلاس | صندوق مكيف فيبر جلاس غطاء خارجي",
     description:
       "احمِ مكيفك من الحرارة والغبار بغطاء فيبر جلاس خارجي عالي الجودة.",
-    images: ["/hero-desktop.png"],
+    images: ["/heroimage5.png"],
   },
   robots: {
     index: true,
@@ -87,7 +88,7 @@ export default function RootLayout({
       dir="rtl"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">{children}<Analytics /></body>
     </html>
   );
 }
